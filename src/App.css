@@ -1,0 +1,60 @@
+/* General app layout */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 90%;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+/* Styles control panel area */
+.control-panel-container {
+  padding: 15px;
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Control panel content area */
+.control-panel-content-area {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  z-index: 10;
+  justify-content: flex-start;
+}
+
+/* Individual dropdown container */
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+/* Ensuring the react-select dropdown stays on top */
+.css-26l3qy-menu {
+  z-index: 9999 !important;
+}
+
+/* Main content layout */
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Styling scatterplot area */
+.scatterplot-area {
+  padding: 20px;
+  flex: 2;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Styling data table area */
+.data-table-area {
+  padding: 20px;
+  flex: 1;
+}
