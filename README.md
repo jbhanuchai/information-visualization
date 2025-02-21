@@ -64,8 +64,8 @@ Ensure you have **Node.js (v14 or higher)** and **npm** installed.
 ### **Steps to Run the Project**
 1. **Clone the Repository**:
    ```sh
-   git clone https://github.com/your-repo/movie-visualization.git
-   cd movie-visualization
+   git clone https://github.com/jbhanuchai/information-visualization.git
+   cd information-visualization
    ```
 2. **Install Dependencies**:
    ```sh
@@ -91,24 +91,14 @@ Ensure you have **Node.js (v14 or higher)** and **npm** installed.
 6. **Scroll in the table** to view all selected rows if they exceed the visible area.
 
 
-## **Dependencies**
-The Homework 1 project relies on the following dependencies as specified in `package.json`:
-```json
-{
-  "@emotion/react": "^11.14.0",
-  "@emotion/styled": "^11.14.0",
-  "@material-table/core": "^6.4.4",
-  "@mui/material": "^6.4.4",
-  "@mui/x-data-grid": "^7.26.0",
-  "cra-template": "1.2.0",
-  "d3": "^7.9.0",
-  "react": "^18.3.1",
-  "react-bootstrap": "^2.10.9",
-  "react-dom": "^18.3.1",
-  "react-scripts": "5.0.1",
-  "react-select": "^5.10.0",
-  "web-vitals": "^4.2.4"
-}
+## Dependencies
+This project uses:
+- **D3.js** – For creating dynamic, interactive data visualizations.
+- **React.js** – Framework for building UI components.
+- **Material-UI (`@mui/x-data-grid`)** – For a responsive table display.
+- **React-Select** – Provides user-friendly dropdown selectors.
+- **Bootstrap** – For styling and layout improvements.
+
 ```
 
 ## **Contributors**
