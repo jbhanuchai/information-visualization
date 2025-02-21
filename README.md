@@ -90,15 +90,6 @@ Ensure you have **Node.js (v14 or higher)** and **npm** installed.
 5. **Selected points appear** in the Table View.
 6. **Scroll in the table** to view all selected rows if they exceed the visible area.
 
-
-## Dependencies
-This project uses:
-- **D3.js** – For creating dynamic, interactive data visualizations.
-- **React.js** – Framework for building UI components.
-- **Material-UI (`@mui/x-data-grid`)** – For a responsive table display.
-- **React-Select** – Provides user-friendly dropdown selectors.
-- **Bootstrap** – For styling and layout improvements.
-
 ## **Contributors**
 - **Bhanu Chaitanya Jasti** - Developer
 ---
