@@ -99,9 +99,6 @@ This project uses:
 - **React-Select** – Provides user-friendly dropdown selectors.
 - **Bootstrap** – For styling and layout improvements.
 
-```
-
 ## **Contributors**
 - **Bhanu Chaitanya Jasti** - Developer
-
 ---
